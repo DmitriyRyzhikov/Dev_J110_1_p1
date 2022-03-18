@@ -18,7 +18,7 @@ public class Countries {
     public Countries(String countryName, double countrySquare, int countryPopulation, String capitalName, int capitalPopulation) {
         this(countryName, countrySquare, countryPopulation);
         setCapitalName(capitalName);
-        setCapitalPopulation(capitalPopulation);
+        setCapitalPopulation(capitalPopulation); 
     }
 
     public Countries(String countryName, double countrySquare, int countryPopulation) {
